@@ -1,0 +1,15 @@
+<!--<odonto-page-login></odonto-page-login>-->
+<!---<odonto-header></odonto-header>--->
+<mat-sidenav-container autosize="true">
+    <mat-sidenav opened="true" mode="side">
+        <div class="logo" fxLayout  fxLayoutGap="10px">
+             <img src="/assets/icons/tooth.svg" alt="">
+             <h3 *ngIf="expanded">Clínica Odontológica</h3>
+        </div>
+        <odonto-menu (onToggleExpanded)="toggleExpanded($event)"></odonto-menu>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <odonto-header></odonto-header>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

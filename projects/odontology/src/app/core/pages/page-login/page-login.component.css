@@ -1,0 +1,25 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #ddf0fe;
+}
+
+
+.info h2{
+    color: #01169e;
+    font-size: 42px;
+    line-height: 46px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.login{
+    background: white;
+}
+
+img{
+    width: 800px;
+    height: 650px;
+    border-radius: 10px;
+}
